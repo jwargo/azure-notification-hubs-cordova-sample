@@ -6,7 +6,7 @@ node_modules/
 
 # files
 pub.sh
-google-serviices.json
+google-services.json
 
 # Mac
 .DS_Store
