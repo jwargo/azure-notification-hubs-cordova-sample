@@ -17,10 +17,18 @@ You must also copy your Firebase Cloud Messaging platform `google-services.json`
 
 ## Application Operation
 
-When the application launches, if displays a simple introductory screen, then registers the device with Azure Notification Hubs. If registration succeeds, the app displays a simple dialog showing the data returned from ANH plus updates the app's main page with the information.
+When the application launches, if displays a simple introductory screen, then registers the device with Azure Notification Hubs. 
 
 ![Application main screen](screenshots/figure-01.png)
 
+If registration succeeds, the app displays a simple dialog showing the data returned from ANH.
+
+![Registration Alert](screenshots/figure-02.png)
+
+The app also updates the app's main page with the registration details.
+
+![Registration results](screenshots/figure-03.png)
+
 When the app receives a notification, it writes the received data to the console and displays a dialog with the date received from ANH.
 
-![Notification alert](screenshots/figure-02.png)
+![Notification alert](screenshots/figure-04.png)
